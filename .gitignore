@@ -1,23 +1,52 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Dependencies
+node_modules/
 
-# testing
-/coverage
+# Build directories
+build/
+dist/
 
-# production
-/build
-
-# misc
+# System files
 .DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Coverage directory used by testing tools
+coverage/
+
+# Environment variables
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Temporary files
+*.tmp
+*.temp
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# Mac specific files
+.AppleDouble
+.LSOverride
+
+# Node-wrapped Electron build directory
+electron-builds/
+
+# Yarn v2
+.yarn/*
+.pnp.*
+
+# Parcel cache
+.cache/
+
+# Next.js build output
+.next/
+out/
